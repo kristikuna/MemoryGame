@@ -1,0 +1,159 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #569494;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 650px;
+}
+
+header {
+  width: 90%;
+  height: 10%;
+  margin-bottom: 20px;
+  font-size: 45px;
+  font-family: Pacifico, serif;
+}
+
+p {
+  border-radius: 20px;
+}
+
+content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 90%;
+  height: 65%;
+}
+
+.playerInfo {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  border: 5px solid black;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-family: Quicksand, "sans-serif";
+  background-color: lightgrey;
+}
+
+.playerOne {
+  width: 30%;
+  font-size: 15px;
+  border: 4px solid black;
+  height: 79%;
+  margin-top: 6px;
+  border-radius: 15px;
+}
+
+p:last-child {
+  font-size: 10px;
+}
+
+.reset {
+  width: 30%;
+  font-size: 20px;
+  border: 4px solid black;
+  height: 80%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  font-family: Quicksand, "sans-serif";
+}
+
+.startButton,
+.winForm,
+.loseForm {
+  width: 90%;
+  height: 10%;
+  border: 5px solid black;
+  margin-bottom: 10px;
+  font-family: Quicksand, "sans-serif";
+  font-size: 40px;
+  border-radius: 20px;
+  background-color: lightgrey;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+.maroon {
+  background-color: maroon;
+}
+
+.navy {
+  background-color: navy;
+}
+
+.chocolate {
+  background-color: chocolate;
+}
+
+.forestgreen {
+  background-color: forestgreen;
+}
+
+.gold {
+  background-color: gold;
+}
+
+.lightcoral {
+  background-color: lightcoral;
+}
+
+.darkmagenta {
+  background-color: darkmagenta;
+}
+
+.slategray {
+  background-color: slategray;
+}
+
+.front {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  max-width: 100px;
+  background-image: url("https://c2.staticflickr.com/4/3317/3199215833_1570c7f0a7.jpg");
+}
+
+.back {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  max-width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    margin: 0 20%;
+    height: 700px;
+  }
+  .cell:hover .front{
+    border: 4px solid black;
+
+  }
+
+  p:last-child {
+    font-size: 15px;
+  }
+}
